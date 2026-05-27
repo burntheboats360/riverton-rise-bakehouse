@@ -1,0 +1,10 @@
+# Local previews and deployment packages
+preview-*.png
+*.zip
+
+# Generated placeholder no longer used by the site
+assets/baker-placeholder-portrait.png
+
+# System/editor noise
+.DS_Store
+*.swp

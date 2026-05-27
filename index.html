@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Riverton Rise Bakehouse | Organic Sourdough and Cookies in Riverton, Utah</title>
+    <meta
+      name="description"
+      content="Small-batch organic sourdough bread and handmade cookies baked in Riverton, Utah. Preorder for local pickup and nearby delivery."
+    />
+    <meta name="theme-color" content="#f8efe0" />
+    <link rel="preload" href="assets/hero-bread-cookies.png" as="image" />
+    <link rel="preload" href="assets/product-country-sourdough.png" as="image" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" aria-label="Primary navigation">
+      <a class="brand" href="#top" aria-label="Riverton Rise Bakehouse home">
+        <span class="brand-mark" aria-hidden="true">RR</span>
+        <span>
+          <strong>Riverton Rise</strong>
+          <small>Bakehouse</small>
+        </span>
+      </a>
+      <nav class="nav-links" aria-label="Site">
+        <a href="#menu">Menu</a>
+        <a href="#story">Story</a>
+        <a href="#map">Map</a>
+        <a class="nav-cta" href="#order">Order</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-media" aria-hidden="true"></div>
+        <div class="hero-copy">
+          <p class="eyebrow">Organic loaves and cookies from Riverton, Utah</p>
+          <h1 id="hero-title">Riverton Rise Bakehouse</h1>
+          <p>
+            Home-baked sourdough and thick cookies from a Riverton kitchen, made slowly with organic flour, good butter, and a porch-pickup kind of welcome.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#order">Start a preorder</a>
+            <a class="button secondary" href="#menu">See this week's bakes</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="intro-band" aria-label="Bakery highlights">
+        <div class="intro-grid">
+          <p><strong>36 hour sourdough</strong><span>Cold fermented for deep flavor and a crackly crust.</span></p>
+          <p><strong>Small batch only</strong><span>Enough to keep it special, never enough to feel factory-made.</span></p>
+          <p><strong>Riverton handoff</strong><span>Pickup near home base with nearby delivery by request.</span></p>
+        </div>
+      </section>
+
+      <section class="section about-section" id="story" aria-labelledby="story-title">
+        <div class="portrait-card">
+          <div class="portrait-frame">
+            <img src="assets/baker-bio-portrait.png" alt="Baker portrait in a warm kitchen holding sourdough" />
+          </div>
+          <p>Your bio photo, warm and right at home with the bread.</p>
+        </div>
+
+        <div class="about-copy">
+          <p class="eyebrow">Meet the baker</p>
+          <h2 id="story-title">Hi, I'm the one feeding the starter before most of Riverton is awake.</h2>
+          <p>
+            Riverton Rise is meant to feel personal: the kind of bread you text a neighbor about, the cookie box you bring to Sunday dinner, and the loaf that makes soup night a little more serious.
+          </p>
+          <p>
+            I bake in small, preorder-only rounds so the loaves are fresh, the cookies stay soft in the middle, and every order still feels like it came from a real kitchen instead of a production line.
+          </p>
+          <div class="personality-row" aria-label="Bakery personality notes">
+            <span>Organic flour</span>
+            <span>Long naps for dough</span>
+            <span>Porch pickup energy</span>
+          </div>
+          <p class="signature">- Your name, baker and Riverton neighbor</p>
+        </div>
+      </section>
+
+      <section class="section menu-section" id="menu" aria-labelledby="menu-title">
+        <div class="menu-charm" aria-hidden="true">
+          <span>starter fed</span>
+          <span>cookie tester approved</span>
+          <span>porch pickup</span>
+        </div>
+        <div class="section-heading">
+          <p class="eyebrow">This week's bakes</p>
+          <h2 id="menu-title">Bread with patience. Cookies with personality.</h2>
+          <p>
+            Pick a staple, add a sweet box, and send a note. I confirm each batch before baking so nothing sits around pretending to be fresh.
+          </p>
+        </div>
+
+        <div class="menu-grid">
+          <article class="product-card">
+            <img class="product-image" src="assets/product-country-sourdough.png" alt="Organic country sourdough loaf with a sliced open crumb" />
+            <div class="product-top">
+              <p class="tag">Signature loaf</p>
+              <p class="price">$12</p>
+            </div>
+            <h3>Organic Country Sourdough</h3>
+            <p>The everyday loaf: open crumb, caramelized crust, mild tang, and a soft center for toast, sandwiches, and soup nights.</p>
+            <button class="choose-product" type="button" data-product="Organic Country Sourdough">Choose loaf</button>
+          </article>
+
+          <article class="product-card">
+            <img class="product-image" src="assets/product-seeded-sourdough.png" alt="Honey oat seeded sourdough loaf on a bakery table" />
+            <div class="product-top">
+              <p class="tag">Seeded</p>
+              <p class="price">$14</p>
+            </div>
+            <h3>Honey Oat Seeded Sourdough</h3>
+            <p>A slightly rugged loaf with toasted oats, seeds, and a little Utah honey folded into the dough.</p>
+            <button class="choose-product" type="button" data-product="Honey Oat Seeded Sourdough">Choose seeded</button>
+          </article>
+
+          <article class="product-card">
+            <img class="product-image" src="assets/product-cookies.png" alt="Brown butter oatmeal chocolate chunk cookies with flaky salt" />
+            <div class="product-top">
+              <p class="tag">Cookie box</p>
+              <p class="price">$18</p>
+            </div>
+            <h3>Brown Butter Cookie Dozen</h3>
+            <p>Thick cookies with brown butter, organic oats, dark chocolate chunks, and flaky salt on top.</p>
+            <button class="choose-product" type="button" data-product="Brown Butter Cookie Dozen">Choose cookies</button>
+          </article>
+
+          <article class="product-card accent-card">
+            <img class="product-image" src="assets/product-bundle.png" alt="Sourdough loaf and cookie bundle wrapped for pickup" />
+            <div class="product-top">
+              <p class="tag">Bundle</p>
+              <p class="price">$28</p>
+            </div>
+            <h3>Porch Pickup Pairing</h3>
+            <p>One country sourdough plus six cookies, baked for Saturday pickup and wrapped like you planned ahead.</p>
+            <button class="choose-product" type="button" data-product="Porch Pickup Pairing">Choose bundle</button>
+          </article>
+        </div>
+      </section>
+
+      <section class="section process-section" id="process" aria-labelledby="process-title">
+        <div class="section-heading compact">
+          <p class="eyebrow">Slow food, simple rhythm</p>
+          <h2 id="process-title">How a local bake week works</h2>
+        </div>
+        <div class="process-grid">
+          <article>
+            <span>01</span>
+            <h3>Starter wakes up</h3>
+            <p>Levain is mixed the night before dough day so the loaves rise naturally without commercial yeast.</p>
+          </article>
+          <article>
+            <span>02</span>
+            <h3>Dough rests cold</h3>
+            <p>Long fermentation builds flavor, improves texture, and gives each loaf its blistered crust.</p>
+          </article>
+          <article>
+            <span>03</span>
+            <h3>Cookies bake fresh</h3>
+            <p>Cookie dough rests for a richer bite, then bakes in small rounds close to pickup time.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="pickup-band" id="pickup" aria-labelledby="pickup-title">
+        <div>
+          <p class="eyebrow">Riverton pickup</p>
+          <h2 id="pickup-title">Baked close to home for south Salt Lake Valley tables.</h2>
+        </div>
+        <p>
+          Current handoff windows are Friday evening and Saturday morning in Riverton. If you are close by, ask about delivery. I will say yes when the bake schedule and the route make sense.
+        </p>
+      </section>
+
+      <section class="section map-section" id="map" aria-labelledby="map-title">
+        <div class="section-heading">
+          <p class="eyebrow">Home base</p>
+          <h2 id="map-title">Riverton is the center of the bake route.</h2>
+          <p>
+            Pickup stays local, with occasional doorstep runs into nearby neighborhoods when timing works. The exact pickup address is shared after an order is confirmed.
+          </p>
+        </div>
+
+        <div class="map-layout">
+          <div class="map-card">
+            <svg class="riverton-map" viewBox="0 0 900 520" role="img" aria-labelledby="riverton-map-title riverton-map-desc">
+              <title id="riverton-map-title">Stylized map of Riverton, Utah and nearby pickup areas</title>
+              <desc id="riverton-map-desc">Riverton is marked near the center, with nearby Herriman, South Jordan, Draper, and Bluffdale shown around the pickup area.</desc>
+              <rect class="map-ground" width="900" height="520" rx="18"></rect>
+              <path class="map-foothills" d="M0 75 C95 18 183 57 260 28 C337 -1 417 39 498 24 C605 4 705 27 900 0 L900 0 L900 130 C769 121 703 84 598 98 C485 114 418 89 318 117 C207 149 123 94 0 146 Z"></path>
+              <path class="map-water" d="M684 0 C656 67 682 112 654 172 C621 243 653 295 622 366 C597 423 611 462 585 520"></path>
+              <path class="map-road main-road" d="M82 430 C196 364 293 353 407 312 C523 270 603 206 772 151"></path>
+              <path class="map-road road-two" d="M148 82 C235 147 321 214 388 312 C452 405 532 470 628 520"></path>
+              <path class="map-road road-three" d="M0 280 C152 258 286 273 424 244 C569 214 716 219 900 178"></path>
+              <path class="map-road road-four" d="M232 520 C248 431 291 362 365 291 C446 214 501 130 532 22"></path>
+              <circle class="pickup-ring" cx="456" cy="294" r="84"></circle>
+              <circle class="pickup-dot" cx="456" cy="294" r="14"></circle>
+              <text class="map-label city-label" x="456" y="272">Riverton</text>
+              <text class="map-label" x="212" y="212">Herriman</text>
+              <text class="map-label" x="464" y="138">South Jordan</text>
+              <text class="map-label" x="640" y="330">Draper</text>
+              <text class="map-label" x="262" y="420">Bluffdale</text>
+              <text class="map-small-label" x="700" y="410">Jordan River</text>
+              <text class="map-small-label" x="560" y="214">Bangerter Hwy</text>
+              <text class="map-small-label" x="148" y="356">Mountain View Corridor</text>
+            </svg>
+          </div>
+
+          <aside class="route-notes" aria-label="Pickup and delivery notes">
+            <p class="route-kicker">Nearby requests</p>
+            <ul>
+              <li><strong>Easy pickup:</strong> Riverton</li>
+              <li><strong>Ask about delivery:</strong> Herriman, Bluffdale, South Jordan, Draper</li>
+              <li><strong>Best windows:</strong> Friday evening and Saturday morning</li>
+            </ul>
+            <p>
+              This keeps the bread from riding around too long and keeps cookie boxes arriving the way they should: still soft, still generous.
+            </p>
+            <a class="map-link" href="https://www.google.com/maps/place/Riverton,+UT" target="_blank" rel="noreferrer">Open Riverton on Google Maps</a>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section order-section" id="order" aria-labelledby="order-title">
+        <div class="order-copy">
+          <p class="eyebrow">Reserve a bake</p>
+          <h2 id="order-title">Tell me what sounds good.</h2>
+          <p>
+            Send a preorder note and I will confirm availability, pickup timing, and any delivery request before payment.
+          </p>
+          <div class="note-box">
+            <strong>Counter note</strong>
+            <span>Sourdough is best the day it is baked, keeps well for three days, and freezes beautifully sliced for emergency toast.</span>
+          </div>
+        </div>
+
+        <form class="order-form" name="order-inquiry" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/thanks.html">
+          <input type="hidden" name="form-name" value="order-inquiry" />
+          <p class="hidden">
+            <label>Do not fill this out: <input name="bot-field" /></label>
+          </p>
+
+          <label>
+            Name
+            <input name="name" type="text" autocomplete="name" required />
+          </label>
+
+          <label>
+            Email
+            <input name="email" type="email" autocomplete="email" required />
+          </label>
+
+          <label>
+            What would you like?
+            <select name="product" id="product-select" required>
+              <option value="">Choose a bake</option>
+              <option>Organic Country Sourdough</option>
+              <option>Honey Oat Seeded Sourdough</option>
+              <option>Brown Butter Cookie Dozen</option>
+              <option>Porch Pickup Pairing</option>
+              <option>Custom mix</option>
+            </select>
+          </label>
+
+          <label>
+            Preferred handoff
+            <select name="handoff" required>
+              <option value="">Choose a window</option>
+              <option>Friday evening pickup</option>
+              <option>Saturday morning pickup</option>
+              <option>Request nearby delivery</option>
+            </select>
+          </label>
+
+          <label class="full-span">
+            Notes
+            <textarea name="notes" rows="4" placeholder="Quantity, allergies, delivery area, or gifting details"></textarea>
+          </label>
+
+          <button class="button primary full-span" type="submit">Send preorder inquiry</button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p><strong>Riverton Rise Bakehouse</strong> | Organic sourdough bread and cookies in Riverton, Utah.</p>
+      <a href="#top">Back to top</a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
