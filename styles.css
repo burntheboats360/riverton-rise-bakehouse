@@ -114,8 +114,10 @@ textarea {
   display: flex;
   align-items: center;
   gap: 6px;
+  flex-wrap: nowrap;
   font-size: 0.92rem;
   font-weight: 700;
+  white-space: nowrap;
 }
 
 .nav-links a {
@@ -383,14 +385,6 @@ h1 {
   min-height: 390px;
   object-fit: cover;
   object-position: center;
-}
-
-.portrait-card p {
-  margin: 14px 4px 2px;
-  color: var(--muted);
-  font-size: 0.95rem;
-  font-weight: 750;
-  text-align: center;
 }
 
 .about-copy h2 {
@@ -794,19 +788,6 @@ h1 {
   color: var(--muted);
 }
 
-.map-link {
-  display: inline-flex;
-  min-height: 44px;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid rgba(164, 82, 36, 0.24);
-  border-radius: 999px;
-  padding: 10px 14px;
-  background: var(--cream);
-  color: var(--crust);
-  font-weight: 850;
-}
-
 .order-section {
   display: grid;
   grid-template-columns: minmax(280px, 0.75fr) minmax(320px, 1fr);
@@ -949,13 +930,12 @@ h1 {
 
 @media (max-width: 920px) {
   .site-header {
-    align-items: flex-start;
+    align-items: center;
     border-radius: 26px;
   }
 
   .nav-links {
     max-width: 320px;
-    flex-wrap: wrap;
     justify-content: flex-end;
   }
 
@@ -1000,11 +980,20 @@ h1 {
     width: calc(100% - 20px);
     min-height: 0;
     padding: 10px;
+    gap: 8px;
   }
 
   .brand-mark {
-    width: 38px;
-    height: 38px;
+    width: 34px;
+    height: 34px;
+  }
+
+  .brand {
+    gap: 7px;
+  }
+
+  .brand strong {
+    font-size: 0.92rem;
   }
 
   .brand small {
@@ -1012,12 +1001,14 @@ h1 {
   }
 
   .nav-links {
-    gap: 2px;
-    font-size: 0.8rem;
+    gap: 1px;
+    max-width: none;
+    flex: 0 0 auto;
+    font-size: 0.72rem;
   }
 
   .nav-links a {
-    padding: 8px 9px;
+    padding: 7px 6px;
   }
 
   .hero {
